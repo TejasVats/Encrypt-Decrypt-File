@@ -46,16 +46,6 @@ Example:
 
 Or run from the terminal with `decrypt_file` uncommented.
 
-### ⚠️ Security Notes
-
-- **Never** share or push your `secret.key` to public repositories.
-- If your key is lost or leaked, your data security is compromised.
-- Always add `secret.key` to your `.gitignore` before uploading your code:
-    ```
-    secret.key
-    ```
-- Each file is encrypted/decrypted in-place; keep backups if needed.
-
 - ## How it Works
 
 - Calls `write_key()` once to generate and save an encryption key.
